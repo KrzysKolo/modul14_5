@@ -1,0 +1,48 @@
+.contactsList{
+	width: 400px;
+	background: #E7E0E6;
+	padding: 0px;
+	margin-left: 50px;
+}
+.contactItem {
+	display: flex;
+	border-bottom: #999 solid 1px;
+	margin: 0px;
+	height: 100px;
+}
+.contactImage {
+  margin-right: 1.5em;
+  width: 80px;
+  flex: 1;
+  padding-left: 10px;
+}
+.contactLabel,
+.contactEmail {
+	height: 30px;
+	flex: 2;
+}
+.contactLabel {
+	margin-left: 10px;
+}
+.contactEmail {
+	position: relative;
+	top: 60px;
+	left: -130px;
+}
+a {
+	color: #009;
+}
+.contactForm {
+	margin: 10px;
+}
+input,
+button {
+	padding: 2px;
+	font-size: 14px;
+	margin-left: 5px;
+}
+button {
+	background: #06F;
+	border: 1px #0000FF solid;
+	box-shadow: #CCC 2px 2px 2px;
+}
